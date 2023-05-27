@@ -1,8 +1,11 @@
-import "./env.mjs"
+import './env.mjs';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-}
+  images: {
+    domains: ['via.placeholder.com'],
+  },
+};
 
-export default nextConfig
+export default nextConfig;
